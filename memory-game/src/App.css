@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.image-grid div {
+  display: flex;
+}
+
+.image-grid img {
+  transition: all 0.2s;
+  width: 20vmin;
+  height: 20vmin;
+}
+
+.image-grid img:hover {
+  transition: transform 0.2s;
+  transform: scale(0.8);
+}
+
+.image-grid img:active {
+  transition: transform 0.2s;
+  transform: scale(0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+.congratulations-modal {
+  position: fixed;
+  z-index: 1;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: aliceblue;
+  border-radius: 10%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

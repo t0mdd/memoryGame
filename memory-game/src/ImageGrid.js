@@ -15,10 +15,12 @@ const ImageGrid = ( { srcArray, noRows, noCols, onClick } ) => {
   }
 
   return (
-    <div className="image-grid" onClick = {onClick}>
-      {Array(noRows).fill(null).map((slot, rowIndex) => (
-        createImageRow(rowIndex)
-      ))}
+    <div className="image-grid-container">
+      <div className="image-grid" onClick = {onClick}>
+        {Array(noRows).fill(null).map((slot, rowIndex) => (
+          createImageRow(rowIndex)
+        ))}
+      </div>
     </div>
   );
 };

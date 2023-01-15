@@ -1,6 +1,24 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body {
+  padding: 10px;
+}
+.top > * {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.image-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-grid {
+  border: 5px solid black;
 }
 
 .image-grid div {
@@ -9,8 +27,8 @@
 
 .image-grid img {
   transition: all 0.2s;
-  width: 20vmin;
-  height: 20vmin;
+  width: 16vmin;
+  height: 16vmin;
 }
 
 .image-grid img:hover {
@@ -27,17 +45,46 @@
   display: none;
 }
 
+button, select {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+}
+
+select:hover, button:hover {
+  background-color: rgb(255, 191, 223);
+}
+
+button:active {
+  background-color: rgb(255, 114, 185);
+}
+
 .congratulations-modal {
   position: fixed;
   z-index: 1;
   left: 25%;
   top: 25%;
   width: 50%;
-  height: 50%;
   background-color: aliceblue;
-  border-radius: 10%;
+  border: 5px solid black;
+  border-radius: 20px;
   padding: 20px;
+  text-align: center;
+}
+
+.congratulations-modal-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.congratulations-modal-controls-container {
+  position: absolute;
+  width: calc(100% - 40px);
+}
+
+.congratulations-modal-controls {
+  display: flex;
+  justify-content: end;
 }

@@ -4,7 +4,7 @@ import ImageGrid from './ImageGrid';
 import CongratulationsModal from './CongratulationsModal';
 import { randomSubarrayOfSize, randomDerangementOfArray } from './ArrayTools';
 
-const imageContext = require.context('./imgs', false);
+const imageContext = require.context('./imgs/game', false);
 const imageSrcs = imageContext.keys().map((path) => imageContext(path));
 const initialGridSize = 3;
 
@@ -47,23 +47,25 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Memory game</h1>
-      <p>How to play: Try to click each picture exactly once. Your score will reset to 0 if you click the same picture twice.</p>
-      <button 
-      onClick = { startNewGame }
-      >
-      New Game
-      </button>
-      <span>Difficulty: </span>
-      <select 
-      onChange = { (e) => setGridSize(+e.target.value) }
-      >
-        <option value='3'>Easy</option>
-        <option value='4'>Medium</option>
-        <option value='5'>Hard</option>
-      </select>
-      <p>Score: { previousSelections.length }</p>
-      <p>Personal Best: { personalBest }</p>
+      <section className="top">
+        <h1>Memory game</h1>
+        <p>How to play: Try to click each picture exactly once. Your score will reset to 0 if you click the same picture twice.</p>
+        <span>Difficulty: </span>
+        <select
+        onChange = { (e) => setGridSize(+e.target.value) }
+        >
+          <option value='3'>Easy</option>
+          <option value='4'>Medium</option>
+          <option value='5'>Hard</option>
+        </select>
+        <button
+        onClick = { startNewGame }
+        >
+        New Game
+        </button>
+        <p>Score: { previousSelections.length }</p>
+        <p>Personal Best: { personalBest }</p>
+      </section>
       <ImageGrid 
       srcArray = { imageSrcsInCurrentGame }
       noRows = { gridSize }
@@ -74,6 +76,7 @@ function App() {
       <CongratulationsModal 
       currentScore = { previousSelections.length }
       highestPossibleScore = { imageSrcsInCurrentGame.length }
+      startNewGame = {startNewGame}
       >
       </CongratulationsModal>
     </div>

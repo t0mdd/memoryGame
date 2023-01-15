@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/memoryGame/static/css/main.e9b4c005.css",
+    "main.js": "/memoryGame/static/js/main.11cb1e78.js",
+    "static/media/10.jpg": "/memoryGame/static/media/10.be9a997ff19a301d401a.jpg",
+    "static/media/13.png": "/memoryGame/static/media/13.0f0437bd58edf9dd94c8.png",
+    "static/media/23.png": "/memoryGame/static/media/23.6d9414f7bdb54c47f67d.png",
+    "static/media/14.png": "/memoryGame/static/media/14.10e43accd0d151729a4f.png",
+    "static/media/9.png": "/memoryGame/static/media/9.e5842f02e354c0252668.png",
+    "static/media/8.jpg": "/memoryGame/static/media/8.5468dd7b69f30f07b1b3.jpg",
+    "static/media/18.jpg": "/memoryGame/static/media/18.3c2e7c9a0ea79a4121e9.jpg",
+    "static/media/1.jpg": "/memoryGame/static/media/1.ddb0ced56d8462b7d8b6.jpg",
+    "static/media/7.jpg": "/memoryGame/static/media/7.deb9949e19e93062b2a2.jpg",
+    "static/media/11.jpg": "/memoryGame/static/media/11.3724c08e28e42fdb0b36.jpg",
+    "static/media/5.jpg": "/memoryGame/static/media/5.9510e3d08241751efe26.jpg",
+    "static/media/12.jpg": "/memoryGame/static/media/12.52492e71c58f878e6b4f.jpg",
+    "static/media/15.jpg": "/memoryGame/static/media/15.04bcd01b75aa917fb15c.jpg",
+    "static/media/22.jpg": "/memoryGame/static/media/22.0009bd09b2e0e1bbf840.jpg",
+    "static/media/6.jpg": "/memoryGame/static/media/6.c8d41f0f69ec7f9608c6.jpg",
+    "static/media/21.jpg": "/memoryGame/static/media/21.4dbf6c6a31f0d85685f9.jpg",
+    "static/media/19.jpg": "/memoryGame/static/media/19.d568ff40be680ea74a0c.jpg",
+    "static/media/24.jpg": "/memoryGame/static/media/24.b08648163b666f5cd682.jpg",
+    "static/media/25.jpg": "/memoryGame/static/media/25.1d545e4e19daa16dcad3.jpg",
+    "static/media/26.jpg": "/memoryGame/static/media/26.19472e5613b0a29b1701.jpg",
+    "static/media/17.jpg": "/memoryGame/static/media/17.aa82c97cf9842c8c20c3.jpg",
+    "static/media/4.jpg": "/memoryGame/static/media/4.1eb784d4b5bbaabd9f6e.jpg",
+    "static/media/3.jpg": "/memoryGame/static/media/3.201e8f3eed836aa93cfe.jpg",
+    "static/media/20.jpg": "/memoryGame/static/media/20.6c6bef777f45f488f5ab.jpg",
+    "static/media/2.jpg": "/memoryGame/static/media/2.1510c3616072d3189451.jpg",
+    "static/media/squawker.gif": "/memoryGame/static/media/squawker.c0c608c4004b8cdd2edf.gif",
+    "index.html": "/memoryGame/index.html",
+    "main.e9b4c005.css.map": "/memoryGame/static/css/main.e9b4c005.css.map",
+    "main.11cb1e78.js.map": "/memoryGame/static/js/main.11cb1e78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9b4c005.css",
+    "static/js/main.11cb1e78.js"
+  ]
+}
